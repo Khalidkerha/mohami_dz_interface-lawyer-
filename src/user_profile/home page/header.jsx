@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Heder.css';
-
+import logo from "../../assets/images/Screenshot_2023-12-13_133009-removebg-preview.png"
 function Header() {
   useEffect(() => {
     const menu = document.querySelector(".menu");
@@ -15,7 +15,7 @@ function Header() {
   return (
     <header className="page_header">
     <a>  <Link to="/Home" className="slogan">
-        <img src="/images/Screenshot_2023-12-13_133009-removebg-preview.png" alt="Your Image" />
+        <img src={logo} alt="Your Image" />
         <div className="logo">
           <span> MOHAMI DZ</span>
         </div>

@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import './review_lawyer.css';
 import { FaStar } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-
+import profile_img from "../../assets/images/5bfb6f_1cafad56984b4997bd73792b008c6fc3.webp"
 const Review = () => {
     const [rating, setRating] = useState(0);
     const [lawyers, setLawyers] = useState([
-        { name: "Khaled Kerha", location: "Jijel", study: "ESTIN", image: "/images/5bfb6f_1cafad56984b4997bd73792b008c6fc3.webp", stars: 0 },
+        { name: "Khaled Kerha", location: "Jijel", study: "ESTIN", image:profile_img, stars: 0 },
     ]);
 
     const handleRating = (value, lawyerIndex) => {
@@ -82,8 +82,8 @@ const Review = () => {
                         <label htmlFor="option1">No</label><br/>
                     </div>
                     <div className="oprtion"> 
-                        <input type="radio" id="option1" name="option" value="option1"/>
-                        <label htmlFor="option1">Yes</label><br/>
+                        <input type="radio" id="option2" name="option" value="option2"/>
+                        <label htmlFor="option2">Yes</label><br/>
                     </div>
                 </div>
             </div>
