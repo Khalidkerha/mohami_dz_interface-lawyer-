@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/mohami-dz--website-interface/', 
+  base: '/mohami_dz_interface-lawyer-/',  
 })

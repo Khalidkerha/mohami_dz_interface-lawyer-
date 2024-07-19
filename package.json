@@ -24,7 +24,7 @@
 
     "serve": "vite preview",
 
-  "predeploy": "npm run build",
+ "predeploy": "npm run build",
   "deploy": "gh-pages -d dist"
   },
 
